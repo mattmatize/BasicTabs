@@ -9,7 +9,38 @@ import SwiftUI
 
 struct Feed: View {
     var body: some View {
-        Text("Feed").font(.largeTitle)
+        
+        NavigationView{
+            VStack {
+                List {
+                    NavigationLink(
+                        destination: boyPablo()) {
+                        VStack {
+                            Image("wachito-rico")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                                .cornerRadius(8)
+                            HStack {
+                                Text("boy pablo")
+                                Spacer()
+                            }
+                        }
+                    }
+                    NavigationLink(
+                        destination: Detail()) {
+                        Text("Esperanza Spalding")
+                    }
+                    NavigationLink(
+                        destination: Detail()) {
+                        Text("Rex Orange County")
+                    }
+                    NavigationLink(
+                        destination: Detail()) {
+                        Text("Charlie Parker")
+                    }
+                }
+            }.navigationTitle("Artists")
+        }
     }
 }
 

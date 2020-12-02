@@ -17,6 +17,8 @@
 		77317E6F25782DEC000B9D36 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E6E25782DEC000B9D36 /* Feed.swift */; };
 		77317E7425782DF7000B9D36 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E7325782DF7000B9D36 /* Gallery.swift */; };
 		77317E7925782E01000B9D36 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E7825782E01000B9D36 /* Settings.swift */; };
+		778C9D912578337300681EA5 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C9D902578337300681EA5 /* Detail.swift */; };
+		778C9D96257837F900681EA5 /* boyPablo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778C9D95257837F900681EA5 /* boyPablo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		77317E6E25782DEC000B9D36 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
 		77317E7325782DF7000B9D36 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		77317E7825782E01000B9D36 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		778C9D902578337300681EA5 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		778C9D95257837F900681EA5 /* boyPablo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boyPablo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				77317E3D25782D19000B9D36 /* ContentView.swift */,
 				77317E6925782DE3000B9D36 /* Home.swift */,
 				77317E6E25782DEC000B9D36 /* Feed.swift */,
+				778C9D902578337300681EA5 /* Detail.swift */,
+				778C9D95257837F900681EA5 /* boyPablo.swift */,
 				77317E7325782DF7000B9D36 /* Gallery.swift */,
 				77317E7825782E01000B9D36 /* Settings.swift */,
 				77317E3F25782D1A000B9D36 /* Assets.xcassets */,
@@ -272,6 +278,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				77317E3E25782D19000B9D36 /* ContentView.swift in Sources */,
+				778C9D96257837F900681EA5 /* boyPablo.swift in Sources */,
+				778C9D912578337300681EA5 /* Detail.swift in Sources */,
 				77317E3C25782D19000B9D36 /* BasicTabsApp.swift in Sources */,
 				77317E7925782E01000B9D36 /* Settings.swift in Sources */,
 				77317E6F25782DEC000B9D36 /* Feed.swift in Sources */,
