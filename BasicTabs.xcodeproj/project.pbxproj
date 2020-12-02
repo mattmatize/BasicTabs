@@ -13,6 +13,10 @@
 		77317E4325782D1A000B9D36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77317E4225782D1A000B9D36 /* Preview Assets.xcassets */; };
 		77317E4E25782D1A000B9D36 /* BasicTabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E4D25782D1A000B9D36 /* BasicTabsTests.swift */; };
 		77317E5925782D1A000B9D36 /* BasicTabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E5825782D1A000B9D36 /* BasicTabsUITests.swift */; };
+		77317E6A25782DE3000B9D36 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E6925782DE3000B9D36 /* Home.swift */; };
+		77317E6F25782DEC000B9D36 /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E6E25782DEC000B9D36 /* Feed.swift */; };
+		77317E7425782DF7000B9D36 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E7325782DF7000B9D36 /* Gallery.swift */; };
+		77317E7925782E01000B9D36 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77317E7825782E01000B9D36 /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		77317E5425782D1A000B9D36 /* BasicTabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicTabsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77317E5825782D1A000B9D36 /* BasicTabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTabsUITests.swift; sourceTree = "<group>"; };
 		77317E5A25782D1A000B9D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77317E6925782DE3000B9D36 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		77317E6E25782DEC000B9D36 /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		77317E7325782DF7000B9D36 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		77317E7825782E01000B9D36 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				77317E3B25782D19000B9D36 /* BasicTabsApp.swift */,
 				77317E3D25782D19000B9D36 /* ContentView.swift */,
+				77317E6925782DE3000B9D36 /* Home.swift */,
+				77317E6E25782DEC000B9D36 /* Feed.swift */,
+				77317E7325782DF7000B9D36 /* Gallery.swift */,
+				77317E7825782E01000B9D36 /* Settings.swift */,
 				77317E3F25782D1A000B9D36 /* Assets.xcassets */,
 				77317E4425782D1A000B9D36 /* Info.plist */,
 				77317E4125782D1A000B9D36 /* Preview Content */,
@@ -261,6 +273,10 @@
 			files = (
 				77317E3E25782D19000B9D36 /* ContentView.swift in Sources */,
 				77317E3C25782D19000B9D36 /* BasicTabsApp.swift in Sources */,
+				77317E7925782E01000B9D36 /* Settings.swift in Sources */,
+				77317E6F25782DEC000B9D36 /* Feed.swift in Sources */,
+				77317E7425782DF7000B9D36 /* Gallery.swift in Sources */,
+				77317E6A25782DE3000B9D36 /* Home.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
